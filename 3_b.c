@@ -78,5 +78,5 @@ void fcfs(pro p[], int n)
         printf("%d\t%d\t%d\t%d\t%d\t%d\t%d\n", p[i].id, p[i].at, p[i].bt, p[i].ct, p[i].tat, p[i].wt, p[i].rt);
     }
 
-    printf("Average TAT = %d\nAverage WT = %d\nAverage RT = %d\n", avg_tat, avg_wt, avg_rt);
+    printf("Average TAT = %.2f\nAverage WT = %.2f\nAverage RT = %.2f\n", avg_tat, avg_wt, avg_rt);
 }
