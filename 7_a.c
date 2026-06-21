@@ -21,7 +21,7 @@ int main()
     }
     else
     {
-        printf("[PARENT] This parent process.\n");
+        printf("[PARENT] This is parent process.\n");
         printf("[PARENT] My pid is %d. \n", getpid());
         printf("[PARENT] waiting for the child process to terminate.\n");
 

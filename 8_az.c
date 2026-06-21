@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -13,6 +14,7 @@ int main()
         printf("[CHILD] My pid is %d.\n", getpid());
         printf("[CHILD] My parent's pid is %d.\n", getppid());
         printf("[CHILD] Exiting.....\n");
+        exit(0);
     }
     else
     {
