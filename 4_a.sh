@@ -10,7 +10,7 @@ max=${a[0]}
 
 for(( i=1 ; i<n; i++))
 do
-    if(( ${a[$i]}>$max ))
+    if [[ ${a[$i]}>$max ]]
     then 
             max=${a[$i]}
     fi
